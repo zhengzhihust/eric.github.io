@@ -87,7 +87,7 @@ mvn clean 中的clean就是上面的clean，在一个生命周期中，运行某
 
 - deploy     将最终的包复制到远程的仓库，以让其它开发人员与项目共享。
 
-基本上，根据名称我们就能猜出每个阶段的用途，关于其它阶段的解释，请参考http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+基本上，根据名称我们就能猜出每个阶段的用途，关于其它阶段的解释，请参考:[Apache Maven Introduction to the Build Lifecycle](http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
 命令行：
 
