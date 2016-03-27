@@ -781,4 +781,4 @@ http://userscripts.org/
 《JavaScript权威指南》
 ```
 
-![Java Pic](pics/2016-03-26-to-be-a-java-engineer-pic_1.jpg)
+![Java Pic](https://raw.githubusercontent.com/zhengzhihust/zhengzhihust.github.io/master/pics/2016-03-26-to-be-a-java-engineer-pic_1.jpg)

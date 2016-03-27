@@ -178,4 +178,4 @@ git-flow 的 feature release 都是从 develop 分支创建，hotfix support 都
 
 如图：
 
-![git flow chart](https://raw.githubusercontent.com/zhengzhihust/zhengzhihust.github.io/master/_posts/pics/2016-03-27-git-flow-use-pic_1.png "git flow chart")
+![git flow chart](https://raw.githubusercontent.com/zhengzhihust/zhengzhihust.github.io/master/pics/2016-03-27-git-flow-use-pic_1.png)
