@@ -16,3 +16,6 @@ github_username:  https://github.com/zhengzhihust
 
 # Build settings
 markdown: kramdown
+
+#encoding
+encoding: UTF-8
