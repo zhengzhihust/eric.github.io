@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Git-flow 使用笔记"
+title:  "PropertyPlaceholderConfigurer实现配置文件读取"
 date:   2016-03-27 22:39:00 +0800
 categories: jekyll update
 group: navigation
 tags: Java
 ---
 
-#### 实现配置文件读取
+#### PropertyPlaceholderConfigurer实现配置文件读取
 
 > PropertyPlaceholderConfigurer类的主要的用法是将BeanFactory里定义的内容放在一个.properties的文件中.
 > PropertyPlaceholderConfigurer是个bean工厂后置处理器的实现，也就是BeanFactoryPostProcessor接口的一个实现.
@@ -26,7 +26,7 @@ import java.util.Properties;
  * 配置读取工具
  * Created by zhengzhihust on 15/9/23.
  */
-public class NotifyPropertyConfigure extends PropertyPlaceholderConfigurer {
+public class ExampleConfigure extends PropertyPlaceholderConfigurer {
 
     @Override
     protected void processProperties(ConfigurableListableBeanFactory beanFactory, Properties props) throws BeansException {
