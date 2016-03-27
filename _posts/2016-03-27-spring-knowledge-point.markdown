@@ -58,10 +58,10 @@ Spring容器最基本的接口就是BeanFactor。BeanFactory负责配置、创�
 BeanFactory接口包含以下几个基本方法：
 
 ```java
-Boolean containBean(String name):判断Spring容器是否包含id为name的Bean实例。
-<T> getBean(Class<T> requiredTypr):获取Spring容器中属于requiredType类型的唯一的Bean实例。
-Object getBean(String name)：返回Sprin容器中id为name的Bean实例。
-Class <?> getType(String name)：返回容器中指定Bean实例的类型。
+Boolean containBean(String name)    //判断Spring容器是否包含id为name的Bean实例。
+<T> getBean(Class<T> requiredTypr)  //获取Spring容器中属于requiredType类型的唯一的Bean实例。
+Object getBean(String name)         //返回Sprin容器中id为name的Bean实例。
+Class <?> getType(String name)      //返回容器中指定Bean实例的类型。
 ```
 
 调用者只需使用getBean()方法即可获得指定Bean的引用，无须关心Bean的实例化过程。即Bean实例的创建过程完全透明。
