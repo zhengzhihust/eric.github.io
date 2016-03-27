@@ -13,3 +13,9 @@ Zhi Zheng, Graduated from Huazhong Univ. of Sci. & Tech..
 Senior Java Developer in Mogujie Group, Hangzhou.
 
 Major in Message Queue, General Module in Trade, Micro Service developing.
+
+1. Message Queue: RocketMQ, RabbitMQ
+
+2. Java: JavaEE, Java Concurrency, Java NIO
+
+3. Spring: Spring MVC, Spring Security, Spring Batch, Spring Boot
