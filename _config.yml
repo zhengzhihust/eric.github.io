@@ -8,7 +8,7 @@
 # Site settings
 title: zhengzhihust's blog
 email: eric.zheng.sz.1990@hotmail.com
-description: > # 花名元朗，蘑菇街Java高级开发工程师，毕业于华中科技大学
+description: > #### 花名元朗，蘑菇街Java高级开发工程师，毕业于华中科技大学
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: zhengzhihust
