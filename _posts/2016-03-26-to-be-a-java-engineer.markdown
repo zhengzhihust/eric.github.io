@@ -3,6 +3,7 @@ layout: post
 title:  "Java工程师知识储备"
 date:   2016-03-27 19:12:00 +0800
 categories: jekyll update
+group: navigation
 ---
 
 ### 一、基础篇
