@@ -11,3 +11,5 @@ permalink: /java/
 * [PropertyPlaceholderConfigurer实现配置文件读取](http://zhengzhihust.github.io/jekyll/update/2016/03/27/java-place-holder)
 
 * [Maven生命周期](http://zhengzhihust.github.io/jekyll/update/2016/03/27/maven-lifecycle)
+
+* [Spring知识点回顾](http://zhengzhihust.github.io/jekyll/update/2016/03/27/spring-knowledge-point)
