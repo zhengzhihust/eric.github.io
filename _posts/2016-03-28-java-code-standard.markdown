@@ -4,6 +4,7 @@ title:  "Java 编码规范"
 date:   2016-03-28 22:39:00 +0800
 categories: jekyll update
 group: navigation
+author: Eric Zheng
 tags: Java
 ---
 
