@@ -14,9 +14,11 @@ Senior Java Developer in Mogujie Group, Hangzhou.
 
 Major in Message Queue, General Module in Trade, Micro Service developing.
 
+Skills:
+
 1. Message Queue: RocketMQ, RabbitMQ
 
-2. Java: JavaEE, Java Concurrency, Java NIO, Netty
+2. Java: JavaEE, Java Concurrency, NIO, Netty
 
 3. Spring: Spring Core, Spring Security, Spring Batch, Spring Boot
 
