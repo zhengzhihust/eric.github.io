@@ -3,6 +3,9 @@ layout: post
 title:  "Git-flow 使用笔记"
 date:   2016-03-27 19:12:00 +0800
 categories: jekyll update
+author: Eric Zheng
+group: navigation
+tags: Git
 ---
 
 简单来说，git-flow 就是在 git branch git tag基础上封装出来的代码分支管理模型，把实际开发模拟成 master develop feature release hotfix support 几种场景，其中 master 对应发布上线，develop 对应开发，其他几个在不同的情况下出现。通过封装，git-flow 屏蔽了 git branch 等相对来说比较复杂生硬的命令(git branch 还是比较复杂的，尤其是在多分支情况下)，简单而且规范的解决了代码分支管理问题。
