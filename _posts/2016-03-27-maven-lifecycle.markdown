@@ -4,6 +4,7 @@ title:  "Maven生命周期"
 date:   2016-03-27 22:39:00 +0800
 categories: jekyll update
 group: navigation
+author: Eric Zheng
 tags: Java
 ---
 
@@ -96,4 +97,6 @@ mvn clean
 mvn test
 mvn clean
 mvn clean deploy site-deploy
+mvn clean package -P deploy -Dmaven.test.skip=true  //本地打包
+mvn clean compile -U
 ```
