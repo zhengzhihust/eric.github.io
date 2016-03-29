@@ -508,7 +508,51 @@ Centos
 MySQL
 如何看执行计划
 如何搭建MySQL主备
+
+```
+一、复制原理
+开始搭建前有个mysql复制原理的基础知识需要补充:
+mysql进行主备复制使用到了三个线程：
+1.主库上的转存储线程:
+    会将mysql server提交的事务写入到二进制文件中，这个二进制文件就叫做binlog。
+2.备库上的连接线程：
+    备库启动后，负责和主库通信，读取binlog，同时，将binlog存储进自己的一个叫中继日志的relaylog中。
+3.备库上的relaylog重放线程:
+   此线程会将relaylog中的事件在备库上进行回放，说白点就是重新执行一次
+
+二、搭建步骤
+1./etc新增文件mysqld_multi.cnf
+将/user/share/mysql/my-innodb-heavy-4G.cnf文件复制到/etc，重新命名为xxx.cnf（任何你想要的名字）
+在配置文件中新增两个实例
+2.做好了配置之后开启两个实例：
+mysqld_multi --defaults-file=xxx.cnf start 1,2 &
+
+3.开启实例后检测两个实例是否正常启动:
+
+mysqld_multi --defaults-file=xxx.cnf report 1
+mysqld_multi --defaults-file=xxx.cnf report 2
+```
+如果都看到如下结果,说明实例已启动成功:
+![MySQL](https://raw.githubusercontent.com/zhengzhihust/zhengzhihust.github.io/master/pics/2016-03-26-to-be-a-java-engineer-pic_2.jpg)
+
 binlog是什么
+
+```
+二进制日志的结构：
+真正的时间存储再一系列binlog文件中，文件名类似于hot-bin.000001，还有一个binlog索引文件，通常文件名为host-bin.index，用来追踪已有的binlog文件
+
+Binlog事件的结构：
+每个binlog事件由三个部分组成：
+通用头：包含事件的基本信息，如事件类型和事件的大小
+提交头：与特定的事件类型有关
+事件体：存储事件的主要数据
+
+mysqlbinlog工具：
+将二进制日志的内容以可执行的格式被发送到运行中的服务器上，当基于语句的复制被使用时，执行语句被当做SQL语句发出
+
+参考文档：http://dev.mysql.com/doc/refman/5.1/en/mysqlbinlog.html
+```
+
 Derby，H2，PostgreSQL
 SQLite
 
