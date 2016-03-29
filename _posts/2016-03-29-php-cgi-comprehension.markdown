@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PHP CGI简介"
-date:   2016-03-27 22:39:00 +0800
+date:   2016-03-29 22:39:00 +0800
 categories: jekyll update
 group: navigation
 tags: Java
