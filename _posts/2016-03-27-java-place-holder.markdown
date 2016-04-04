@@ -3,6 +3,7 @@ layout: post
 title:  "PropertyPlaceholderConfigurer实现配置文件读取"
 date:   2016-03-27 22:39:00 +0800
 categories: jekyll update
+author: Eric Zheng
 group: navigation
 tags: Java
 ---
