@@ -11,6 +11,7 @@ tags: efficiency
 
 Mac 命令别名设置
 
+```
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -217,3 +218,5 @@ export SDKMAN_DIR="/Users/yuanlang/.sdkman"
 [[ -s "/Users/yuanlang/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/yuanlang/.sdkman/bin/sdkman-init.sh"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+```
