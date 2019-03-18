@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Java
+title: Algorithm and Machine Learning
 permalink: /ml/
 ---
 
