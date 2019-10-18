@@ -4,7 +4,7 @@ title:      微服务体系实施过程中遇到的问题
 subtitle:   How to solve the deployment issues in microservices
 date:       2016-03-28
 author:     Eric Cheng
-header-img: img/post-bg-cook.jpg
+header-img: img/microservices_challenges.jpg
 catalog: true
 tags:
     - 微服务
