@@ -2,7 +2,7 @@
 layout:     post
 title:      Scala Code Style Guideline
 subtitle:   
-date:       2016-03-28
+date:       2017-01-05
 author:     Eric Cheng
 header-img: img/post-bg-coffee.jpeg
 catalog: true
